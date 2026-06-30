@@ -1,0 +1,138 @@
+{
+  "fecha_analisis": "2026-06-30 19:46:54",
+  "total_registros": 1000,
+  "escaneos_detectados": [],
+  "sqli_detectados": [
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/login?user=admin'--&pass=x",
+      "codigo": 500,
+      "fecha": "2024-06-14 05:30:16"
+    },
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/login?user=admin'--&pass=x",
+      "codigo": 500,
+      "fecha": "2024-06-14 05:31:04"
+    },
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/search?q='",
+      "codigo": 200,
+      "fecha": "2024-06-14 05:30:56"
+    },
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/search?q='",
+      "codigo": 500,
+      "fecha": "2024-06-14 05:30:08"
+    },
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/search?q='",
+      "codigo": 500,
+      "fecha": "2024-06-14 05:31:44"
+    },
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/login?user=admin'--&pass=x",
+      "codigo": 500,
+      "fecha": "2024-06-14 05:32:40"
+    },
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/login?user=admin'--&pass=x",
+      "codigo": 500,
+      "fecha": "2024-06-14 05:31:52"
+    },
+    {
+      "ip": "193.32.162.55",
+      "ruta": "/search?q='",
+      "codigo": 500,
+      "fecha": "2024-06-14 05:32:32"
+    }
+  ],
+  "errores_por_ip": [
+    {
+      "ip": "45.33.32.156",
+      "total_errores": 47,
+      "por_codigo": {
+        "404": 34,
+        "403": 10,
+        "500": 3
+      }
+    },
+    {
+      "ip": "193.32.162.55",
+      "total_errores": 18,
+      "por_codigo": {
+        "500": 14,
+        "400": 4
+      }
+    },
+    {
+      "ip": "89.210.135.99",
+      "total_errores": 18,
+      "por_codigo": {
+        "404": 10,
+        "500": 8
+      }
+    },
+    {
+      "ip": "122.153.40.102",
+      "total_errores": 17,
+      "por_codigo": {
+        "500": 10,
+        "404": 7
+      }
+    },
+    {
+      "ip": "115.88.85.249",
+      "total_errores": 13,
+      "por_codigo": {
+        "500": 8,
+        "404": 5
+      }
+    },
+    {
+      "ip": "185.220.101.45",
+      "total_errores": 13,
+      "por_codigo": {
+        "500": 7,
+        "404": 6
+      }
+    },
+    {
+      "ip": "147.242.19.45",
+      "total_errores": 12,
+      "por_codigo": {
+        "500": 5,
+        "404": 7
+      }
+    },
+    {
+      "ip": "91.240.118.172",
+      "total_errores": 12,
+      "por_codigo": {
+        "404": 6,
+        "500": 6
+      }
+    },
+    {
+      "ip": "183.17.75.31",
+      "total_errores": 12,
+      "por_codigo": {
+        "500": 8,
+        "404": 4
+      }
+    },
+    {
+      "ip": "211.75.132.82",
+      "total_errores": 12,
+      "por_codigo": {
+        "404": 6,
+        "500": 6
+      }
+    }
+  ]
+}
