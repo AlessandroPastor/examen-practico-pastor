@@ -414,7 +414,7 @@ python lab3/predecir.py lab3/network_traffic.csv
 
 **Evidencia — Script predecir.py en ejecucion:**
 
-![SCR-3.4](lab3/evidencias/SCR-3.4_predecir.png)
+![SCR-3.4](lab3/evidencias/SCR3.4_predecir.png) 
 
 ---
 
