@@ -1,0 +1,4 @@
+Herramienta: Wazuh Dashboard 4.9 (OpenSearch Dashboards)
+Version: 4.9
+URL: https://192.168.1.43
+IP: 192.168.1.43
