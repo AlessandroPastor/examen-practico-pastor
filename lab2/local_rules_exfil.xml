@@ -1,0 +1,17 @@
+<group name="local,network,">
+
+  <rule id="100002" level="8">
+    <if_sid>5501</if_sid>
+    <time>10 pm - 6 am</time>
+    <description>Login exitoso fuera de horario laboral desde $(srcip)</description>
+    <group>login_after_hours</group>
+  </rule>
+
+  <rule id="100003" level="14" frequency="2" timeframe="3600">
+    <if_matched_sid>100002</if_matched_sid>
+    <same_source_ip />
+    <description>Posible exfiltración de datos mayor a 500MB desde $(srcip) fuera de horario laboral</description>
+    <group>data_exfiltration,policy_violation</group>
+  </rule>
+
+</group>
